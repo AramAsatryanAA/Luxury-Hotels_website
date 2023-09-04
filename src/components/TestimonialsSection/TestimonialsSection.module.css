@@ -1,0 +1,100 @@
+.section-testimonials {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.section__container {
+  padding: 0px 15px;
+}
+.title {
+  font-family: var(--font-cormorant-garamond);
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+.item {
+  margin-bottom: 23px;
+}
+.item .item__comment {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 19px;
+}
+.item .item__author {
+  font-size: 19px;
+}
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 21px;
+}
+.actions button {
+  font-size: 37px;
+  border-radius: 10px;
+  color: var(--color-content-white);
+  background-color: var(--color-background-yellow);
+  transition: var(--transition);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.actions button:hover {
+  background-color: var(--color-content-blue);
+  transform: var(--transform);
+  -webkit-transform: var(--transform);
+  -moz-transform: var(--transform);
+  -ms-transform: var(--transform);
+  -o-transform: var(--transform);
+}
+
+/* Media Queries ---------------------------------------------------------------------- */
+@media screen and (min-width: 576px) {
+  .title {
+    font-size: 50px;
+  }
+  .item .item__comment {
+    font-size: 23px;
+  }
+  .item .item__author {
+    font-size: 21px;
+  }
+  .actions button {
+    font-size: 43px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-testimonials {
+    margin-bottom: 90px;
+  }
+  .section__container {
+    padding: 0px 30px;
+  }
+  .title {
+    font-size: 55px;
+  }
+  .item .item__comment {
+    font-size: 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-testimonials {
+    margin-bottom: 110px;
+  }
+  .title {
+    font-size: 60px;
+  }
+  .item .item__comment {
+    font-size: 30px;
+  }
+  .item .item__author {
+    font-size: 25px;
+  }
+  .actions button {
+    font-size: 50px;
+  }
+}

@@ -1,0 +1,16 @@
+.signature {
+  font-weight: 600;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  background-color: rgb(20, 39, 74);
+  padding: 20.1px 0;
+}
+
+.signature span {
+  color: rgb(55, 200, 55);
+  margin: 0px 7px;
+  padding: 5px 10px;
+  border: 1px solid rgb(255, 255, 255);
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}

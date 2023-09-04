@@ -1,0 +1,38 @@
+.button {
+  color: var(--color-content-blue);
+  background-color: var(--color-content-white);
+  border: 1px solid var(--color-content-white);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  font-size: 40px;
+  transition: var(--transition);
+  -webkit-transition: var(--transition);
+  -moz-transition: var(--transition);
+  -ms-transition: var(--transition);
+  -o-transition: var(--transition);
+}
+.button:hover {
+  color: var(--color-content-white);
+  background-color: var(--color-content-blue);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+/* Media Queries ---------------------------------------------------------------------- */
+@media screen and (min-width: 576px) {
+  .button {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .button {
+    font-size: 60px;
+  }
+}
